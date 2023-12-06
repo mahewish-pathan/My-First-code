@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        div{
+            background-image:radial-gradient(rgb(239, 180, 158),rgb(243, 139, 101),rgb(245, 123, 102));
+            height: 800px;
+            width: 500px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+            
+        }
+        img{
+            border-top:7px solid red ;
+            border-right: 7px solid rgb(237, 99, 99);
+            border-bottom:7px solid coral;
+            border-left:7px solid rgb(243, 94, 40);
+            border-radius:50%;
+            animation:circle 5s linear infinite;
+        }
+        @keyframes circle{
+            0%{
+                transform:rotate(0deg);
+            }
+            100%{
+                transform:rotate(360deg);
+            }
+
+        }
+        h1{
+            font-family:cursive;
+            color: midnightblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><marquee>Shinchan Title Song</marquee></h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YNlDFY7yYezwzxl3y9nH8rdfAiZwPlyiVLwP1qqp3Q&usqp=CAU&ec=48665698" height="150px" width="150px">
+
+    <audio src="C:\Users\LENOVO\Downloads\Shinchan-Original-Song.mp3" controls></audio>
+
+    <video src="C:\Users\LENOVO\Downloads\videoplayback.mp4" controls ></video>
+
+</div>
+
+</body>
+</html>
